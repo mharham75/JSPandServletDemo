@@ -4,4 +4,14 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<servlet-class>com.md.arham.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<url-pattern>/myFirstServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
